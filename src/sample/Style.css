@@ -1,0 +1,60 @@
+.button {
+    -fx-background-radius: 16;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #3d8af7;
+    -fx-font-family: System;
+    -fx-font-size: 20;
+}
+
+.combo-box {
+    -fx-font-size: 13.5;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    -fx-border-radius: 4;
+    -fx-border-width: 0.8;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #ffffff;
+}
+
+.column-header{
+    -fx-progress-colort: #ffffff;
+    -fx-border-color: #aaaaaa;
+    -fx-background-color: #3d8af7;
+    -fx-font-family: System;
+    -fx-font-size: 15;
+    -fx-border-width: 0.4;
+}
+
+.text-field {
+    -fx-border-radius: 4;
+    -fx-border-width: 0.8;
+    -fx-font-size: 15;
+    -fx-border-color: #000000;
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+    -fx-font-family: System;
+    -fx-font-size: 14;
+}
+.scroll-bar:horizontal,
+.scroll-bar:horizontal .increment-arrow,
+.scroll-bar:horizontal .decrement-arrow,
+.scroll-bar:horizontal .track{
+    -fx-pref-width:0;
+    -fx-pref-height:0;
+}
+
+#cancelBtn {
+    -fx-background-radius: 16;
+    -fx-text-fill: #3d8af7;
+    -fx-background-color: #ffffff;
+    -fx-font-family: System;
+    -fx-font-size: 20;
+    -fx-border-color: #000000;
+    -fx-border-width: 0.8;
+    -fx-border-radius: 16;
+}
+
